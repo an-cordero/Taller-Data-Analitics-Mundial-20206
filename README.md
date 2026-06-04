@@ -97,3 +97,35 @@ connection.serialize(() => {
         else console.log("✅ Tabla 'jugadores' estructurada con éxito desde CSV.");
     });
 ```
+
+## 🧹 Paso 3: Operaciones CRUD Analíticas (Saneamiento de Datos)
+
+En los flujos de Data Analytics, los datos crudos extraídos de fuentes externas suelen contener inconsistencias o valores nulos que alteran las proyecciones estadísticas. En este paso, aplicamos transformaciones lógicas (UPDATE y DELETE) utilizando el motor columnar de DuckDB para limpiar el dataset antes de ejecutar las agregaciones.
+
+A diferencia de los motores orientados a filas (OLTP), que deben reconstruir registros completos en disco para modificar un solo atributo, DuckDB aísla únicamente los vectores de las columnas afectadas, acelerando la depuración masiva.
+
+Agrega las siguientes funciones de limpieza en tu archivo `app.ts`:
+
+```typescript
+function ejecutarCRUDLimpieza() {
+    console.log("🧹 Ejecutando Limpieza y Depuración (CRUD Analítico)...");
+
+    // 1. UPDATE: Corregir inconsistencias de caracteres especiales en la columna 'nombre'
+    connection.run(`
+        UPDATE jugadores 
+        SET nombre = 'Kylian Mbappe' 
+        WHERE nombre = 'Kylian Mbappé' AND pais = 'Francia';
+    `, (err) => {
+        if (err) console.error("❌ Error en actualización:", err);
+        else console.log("✅ Operación UPDATE completada sobre la columna estructurada.");
+    });
+
+    // 2. DELETE: Filtrar y eliminar registros con valores nulos en métricas críticas
+    connection.run(`
+        DELETE FROM jugadores 
+        WHERE goles_clasificatoria IS NULL OR posicion = 'N/A';
+    `, (err) => {
+        if (err) console.error("❌ Error en borrado analítico:", err);
+        else console.log("✅ Operación DELETE de depuración completada con éxito.");
+    });
+}
