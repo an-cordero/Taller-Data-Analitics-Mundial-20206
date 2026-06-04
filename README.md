@@ -129,3 +129,56 @@ function ejecutarCRUDLimpieza() {
         else console.log("✅ Operación DELETE de depuración completada con éxito.");
     });
 }
+
+🏆 Paso 4: Consultas Analíticas (Proyecciones Estadísticas en Tiempo Real)
+
+El núcleo estratégico del taller consiste en ejecutar consultas complejas utilizando funciones de agregación (SUM, AVG, GROUP BY, CAST) y ordenamientos masivos para dar respuesta en milisegundos a las tres interrogantes de investigación planteadas, aprovechando el procesamiento vectorial de DuckDB sobre el dataset del Mundial 2026.
+
+Agrega las funciones de proyección al final de tu flujo de ejecución:
+
+```javascript
+function ejecutarConsultasAnaliticas() {
+    console.log("🏆 Ejecutando Consultas de Agregación y Proyecciones...");
+
+    // 1. Proyección de la Selección Potencial Ganadora
+    connection.all(`
+        SELECT pais, confederacion, ranking_fifa_abril2026 AS ranking, goles_favor, 
+               CAST((partidos_ganados * 100 / partidos_jugados_clasificatoria) AS INTEGER) AS efectividad
+        FROM selecciones
+        WHERE partidos_jugados_clasificatoria > 0
+        ORDER BY ranking_fifa_abril2026 ASC
+        LIMIT 5;
+    `, (err, rows) => {
+        if (err) console.error(err);
+        else console.log("⚽ Resultados de Proyección Colectiva:", rows);
+    });
+
+    // 2. Proyección del Ganador de la Bota de Oro
+    connection.all(`
+        SELECT nombre, pais, posicion, goles_clasificatoria 
+        FROM jugadores
+        WHERE posicion = 'Delantero'
+        ORDER BY goles_clasificatoria DESC
+        LIMIT 3;
+    `, (err, rows) => {
+        if (err) console.error(err);
+        else console.log("🥇 Resultados de Proyección Bota de Oro:", rows);
+    });
+
+    // 3. Proyección del Ganador del Guante de Oro
+    connection.all(`
+        SELECT nombre, pais, partidos_invicto, goles_recibidos_portero, paradas_portero
+        FROM jugadores
+        WHERE posicion = 'Portero'
+        ORDER BY partidos_invicto DESC, paradas_portero DESC
+        LIMIT 3;
+    `, (err, rows) => {
+        if (err) console.error(err);
+        else {
+            console.log("🧤 Resultados de Proyección Guante de Oro:", rows);
+            console.log("================================================================");
+            console.log("✅ Taller evaluado con éxito. Infraestructura OLAP completada.");
+            console.log("================================================================");
+        }
+    });
+}
