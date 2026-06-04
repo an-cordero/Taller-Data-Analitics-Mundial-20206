@@ -1,0 +1,50 @@
+seleccion_id,pais,confederacion,grupo_mundial,ranking_fifa_abril2026,puntos_fifa,partidos_jugados_clasificatoria,partidos_ganados,partidos_empatados,partidos_perdidos,goles_favor,goles_contra,diferencia_goles,puntos_clasificatoria,mejor_resultado_mundial,participaciones_mundiales,campeonatos_mundiales,clasifico_como,goles_promedio_partido_favor,goles_promedio_partido_contra,porcentaje_victorias
+1,Francia,UEFA,I,1,1877.32,6,5,1,0,20,4,+16,16,Campeón (1998 y 2018),16,2,Ganador de grupo,3.33,0.67,83.3
+2,España,UEFA,H,2,1876.40,6,5,1,0,17,3,+14,16,Campeón (2010),16,1,Ganador de grupo,2.83,0.50,83.3
+3,Argentina,CONMEBOL,J,3,1874.81,18,12,2,4,31,10,+21,38,Campeón (1978 1986 2022),18,3,1° CONMEBOL,1.72,0.56,66.7
+4,Inglaterra,UEFA,L,4,1825.97,6,5,0,1,18,5,+13,15,Campeón (1966),16,1,Ganador de grupo,3.00,0.83,83.3
+5,Portugal,UEFA,K,5,1763.83,6,5,1,0,19,3,+16,16,Semifinales (1966 y 2006),9,0,Ganador de grupo,3.17,0.50,83.3
+6,Brasil,CONMEBOL,C,6,1761.16,18,8,4,6,24,17,+7,28,Campeón (1958 1962 1970 1994 2002),22,5,5° CONMEBOL,1.33,0.94,44.4
+7,Países Bajos,UEFA,F,7,1757.87,6,5,1,0,20,5,+15,16,Subcampeón (1974 1978 2010),11,0,Ganador de grupo,3.33,0.83,83.3
+8,Marruecos,CAF,C,8,1755.87,10,8,1,1,20,5,+15,25,Semifinales (2022),7,0,Ganador de grupo,2.00,0.50,80.0
+9,Bélgica,UEFA,G,9,1734.71,6,5,1,0,16,3,+13,16,Semifinales (2018),14,0,Ganador de grupo,2.67,0.50,83.3
+10,Alemania,UEFA,E,10,1730.37,6,5,1,0,22,5,+17,16,Campeón (1954 1974 1990 2014),20,4,Ganador de grupo,3.67,0.83,83.3
+11,Croacia,UEFA,L,11,1717.07,6,4,2,0,14,4,+10,14,Subcampeón (2018); Semifinales (2022),7,0,Ganador de grupo,2.33,0.67,66.7
+12,Colombia,CONMEBOL,K,13,1693.09,18,7,7,4,28,18,+10,28,Cuartos de final (2014),7,0,3° CONMEBOL,1.56,1.00,38.9
+13,Senegal,CAF,I,14,1688.99,10,7,2,1,22,6,+16,23,Cuartos de final (2002),4,0,Ganador de grupo,2.20,0.60,70.0
+14,México,CONCACAF,A,15,1681.03,0,0,0,0,0,0,0,0,Cuartos de final (1970 y 1986),17,0,Anfitrión,0.00,0.00,0.0
+15,Estados Unidos,CONCACAF,D,16,1673.13,0,0,0,0,0,0,0,0,Tercero (1930),11,0,Anfitrión,0.00,0.00,0.0
+16,Uruguay,CONMEBOL,H,17,1673.07,18,7,7,4,22,12,+10,28,Campeón (1930 y 1950),14,2,4° CONMEBOL,1.22,0.67,38.9
+17,Japón,AFC,F,18,1660.43,10,7,2,1,24,9,+15,23,Octavos de final (2002 2010 2018 2022),8,0,1° Grupo AFC,2.40,0.90,70.0
+18,Suiza,UEFA,B,19,1649.40,6,5,1,0,21,5,+16,16,Cuartos de final (1934 1938 1954),12,0,Ganador de grupo,3.50,0.83,83.3
+19,Irán,AFC,G,21,1610.55,10,6,2,2,21,10,+11,20,Fase de grupos (6 apariciones),6,0,1° Grupo AFC,2.10,1.00,60.0
+20,Austria,UEFA,J,23,1568.20,6,5,0,1,16,5,+11,15,Tercero (1954),8,0,Ganador de grupo,2.67,0.83,83.3
+21,Ecuador,CONMEBOL,E,24,1560.45,18,8,8,2,14,5,+9,29,Octavos de final (2006),4,0,2° CONMEBOL,0.78,0.28,44.4
+22,Corea del Sur,AFC,A,25,1548.30,10,6,3,1,22,8,+14,21,Semifinales (2002),11,0,1° Grupo AFC,2.20,0.80,60.0
+23,Australia,AFC,D,26,1542.10,10,5,4,1,19,9,+10,19,Octavos de final (2006 y 2022),6,0,2° Grupo AFC,1.90,0.90,50.0
+24,Egipto,CAF,G,29,1498.22,10,7,1,2,19,8,+11,22,Octavos de final (1934),4,0,Ganador de grupo,1.90,0.80,70.0
+25,Canadá,CONCACAF,B,30,1485.67,0,0,0,0,0,0,0,0,Fase de grupos (1986 y 2022),3,0,Anfitrión,0.00,0.00,0.0
+26,Costa de Marfil,CAF,E,33,1460.18,10,8,2,0,26,7,+19,26,Fase de grupos (2006 2010 2014),4,0,Ganador de grupo,2.60,0.70,80.0
+27,Qatar,AFC,B,35,1440.55,10,4,3,3,13,12,+1,15,Fase de grupos (2022),2,0,1° Grupo AFC,1.30,1.20,40.0
+28,Argelia,CAF,J,36,1432.80,10,7,2,1,20,6,+14,23,Octavos de final (2014),4,0,Ganador de grupo,2.00,0.60,70.0
+29,Suecia,UEFA,F,39,1410.65,6,4,1,1,14,7,+7,13,Subcampeón (1958),12,0,Playoff B,2.33,1.17,66.7
+30,Túnez,CAF,F,40,1405.30,10,6,2,2,16,8,+8,20,Fase de grupos (6 apariciones),6,0,Ganador de grupo,1.60,0.80,60.0
+31,Chequia,UEFA,A,41,1400.10,6,3,2,1,11,7,+4,11,Subcampeón (1934 y 1962),10,0,Playoff D,1.83,1.17,50.0
+32,Turquía,UEFA,D,42,1396.45,6,4,1,1,14,6,+8,13,Tercero (2002),2,0,Playoff C,2.33,1.00,66.7
+33,Noruega,UEFA,I,44,1382.70,6,5,1,0,24,6,+18,16,Octavos de final (1994 y 1998),4,0,Ganador de grupo,4.00,1.00,83.3
+34,Escocia,UEFA,C,47,1360.25,6,4,1,1,15,8,+7,13,Fase de grupos (múltiples),8,0,Ganador de grupo,2.50,1.33,66.7
+35,República Democrática del Congo,CAF,K,51,1320.40,10,6,2,2,15,8,+7,20,Fase de grupos (1974),2,0,Playoff Intercontinental,1.50,0.80,60.0
+36,Bosnia y Herzegovina,UEFA,B,52,1315.80,6,3,2,1,11,8,+3,11,Fase de grupos (2014),2,0,Playoff A,1.83,1.33,50.0
+37,Panamá,CONCACAF,L,53,1308.55,10,5,3,2,15,9,+6,18,Fase de grupos (2018),2,0,Ganador grupo CONCACAF,1.50,0.90,50.0
+38,Arabia Saudí,AFC,H,57,1280.30,10,5,2,3,16,11,+5,17,Octavos de final (1994),6,0,1° Grupo AFC,1.60,1.10,50.0
+39,Sudáfrica,CAF,A,60,1258.45,10,5,3,2,14,9,+5,18,Fase de grupos (1998 2002 2010),4,0,Ganador de grupo,1.40,0.90,50.0
+40,Irak,AFC,I,63,1240.20,10,5,2,3,15,10,+5,17,Fase de grupos (1986),2,0,Playoff Intercontinental,1.50,1.00,50.0
+41,Emiratos Árabes Unidos,AFC,D,67,1218.60,10,4,3,3,14,12,+2,15,Debut,1,0,2° Grupo AFC,1.40,1.20,40.0
+42,Jordania,AFC,J,70,1198.35,10,4,3,3,12,11,+1,15,Debut,1,0,2° Grupo AFC,1.20,1.10,40.0
+43,Ghana,CAF,E,72,1185.40,10,5,2,3,14,10,+4,17,Cuartos de final (2010),4,0,Ganador de grupo,1.40,1.00,50.0
+44,Paraguay,CONMEBOL,F,74,1178.25,18,7,7,4,14,10,+4,28,Subcampeón (1930),10,0,6° CONMEBOL,0.78,0.56,38.9
+45,Uzbekistán,AFC,K,75,1172.50,10,4,4,2,16,10,+6,16,Debut,1,0,2° Grupo AFC,1.60,1.00,40.0
+46,Haití,CONCACAF,C,78,1155.30,10,5,2,3,17,12,+5,17,Fase de grupos (1974),2,0,Ganador grupo CONCACAF,1.70,1.20,50.0
+47,Cabo Verde,CAF,H,80,1142.60,10,5,2,3,14,11,+3,17,Debut,1,0,Ganador de grupo,1.40,1.10,50.0
+48,Curazao,CONCACAF,B,92,1090.40,10,5,5,0,17,10,+7,20,Debut,1,0,Ganador grupo CONCACAF,1.70,1.00,50.0
+49,Nueva Zelanda,OFC,G,97,1065.20,6,5,0,1,24,5,+19,15,Fase de grupos (múltiples),3,0,Ganador OFC,4.00,0.83,83.3
